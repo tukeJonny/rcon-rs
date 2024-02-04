@@ -13,7 +13,7 @@ use std::time::Duration;
 use anyhow::{anyhow, Result};
 use clap::Parser;
 
-use rcon::client::RconClient;
+use rconrs::client::RconClient;
 
 #[derive(Debug, Parser)]
 #[clap(name = "palworld")]
