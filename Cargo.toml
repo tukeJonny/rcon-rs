@@ -2,7 +2,7 @@
 name = "rcon"
 version = "0.1.0"
 edition = "2021"
-authors = ["tukeJonny <ne250143@yahoo.co.jp>]
+authors = ["tukeJonny <ne250143@yahoo.co.jp>"]
 description = "Rust implementation of SRCDS RCON Protocol"
 repository = "https://github.com/tukeJonny/rcon-rs"
 license-file = "LICENSE"
@@ -17,7 +17,7 @@ num-traits = "0.2"
 num-derive = "0.4"
 
 [dev-dependencies]
-clap = { version = "3", features = ["derive"] }
+clap = { version = "4.4.18", features = ["derive"] }
 
 [badges]
 github = { repository = "tukeJonny/rcon-rs", workflow = "Test" }
