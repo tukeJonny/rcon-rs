@@ -159,7 +159,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rcon"
+name = "rconrs"
 version = "0.1.0"
 dependencies = [
  "anyhow",

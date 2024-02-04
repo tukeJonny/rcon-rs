@@ -1,5 +1,5 @@
 [package]
-name = "rcon"
+name = "rconrs"
 version = "0.1.0"
 edition = "2021"
 authors = ["tukeJonny <ne250143@yahoo.co.jp>"]
