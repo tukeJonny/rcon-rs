@@ -2,6 +2,8 @@
 name = "rcon"
 version = "0.1.0"
 edition = "2021"
+authors = ["tukeJonny <ne250143@yahoo.co.jp>]
+description = "Rust implementation of SRCDS RCON Protocol"
 repository = "https://github.com/tukeJonny/rcon-rs"
 license-file = "LICENSE"
 
