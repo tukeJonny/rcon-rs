@@ -11,3 +11,6 @@ anyhow = "1.0"
 bytes = "1"
 num-traits = "0.2"
 num-derive = "0.4"
+
+[dev-dependencies]
+clap = { version = "3", features = ["derive"] }
