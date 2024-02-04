@@ -16,3 +16,6 @@ num-derive = "0.4"
 
 [dev-dependencies]
 clap = { version = "3", features = ["derive"] }
+
+[badges]
+github = { repository = "tukeJonny/rcon-rs", workflow = "Test" }
