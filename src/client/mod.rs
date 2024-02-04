@@ -4,6 +4,7 @@ use anyhow::Result;
 use bytes::{Bytes, BytesMut};
 
 use crate::client::response::AuthResponse;
+use crate::error::ClientError;
 use crate::packet::packet_type::{RequestPacketType, ResponsePacketType};
 use crate::packet::Packet;
 
@@ -29,7 +30,7 @@ pub trait RconClient {
         if auth_response_packet.identifier == 0 {
             Ok(AuthResponse::AuthenticationSucceeded)
         } else {
-            Ok(AuthResponse::AuthenticationFailed)
+            Err(ClientError::AuthenticationError.into())
         }
     }
     fn execute_command(&mut self, command: &str) -> Result<String, Box<dyn std::error::Error>> {
