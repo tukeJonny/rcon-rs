@@ -61,7 +61,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // NOTE: Teleport commands is not supported. because these commands often used in case of playing.
     if let Some(command) = args.command.split_whitespace().next() {
         match command {
-            "Shutdown" | "DoExit" | "Broadcast" | "KickPlayer" | "BanPlayer" | "ShowPlayers"
+            "Shutdown" | "DoExit" | "Broadcast" | "KickPlayer" | "BanPlayer" | "UnBanPlayer" | "ShowPlayers"
             | "Info" | "Save" => {
                 let result = client.execute_command(args.command.as_ref())?;
                 println!("{}", result);
