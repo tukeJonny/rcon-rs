@@ -1,6 +1,6 @@
 [package]
 name = "rconrs"
-version = "0.1.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["tukeJonny <ne250143@yahoo.co.jp>"]
 description = "Rust implementation of SRCDS RCON Protocol"
